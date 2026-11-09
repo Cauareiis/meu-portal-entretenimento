@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Entretenimento Digital</title>
+
+    <!-- Importação da fonte Ruda do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- CSS Interno -->
+    <style>
+        /* Estilo interno para destacar o subtítulo */
+        .subtitulo {
+            color: #122f52;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        body {
+            /* Esfumado */
+            background: linear-gradient(to bottom, #87b0c2 0%, #b0d1df 25%, #b0d1df 50%, #87b0c2 100%);
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+    </style>
+        
+
+    <!-- Cabeçalho -->
+    <header id="topo">
+        <!-- CSS Inline -->
+        <h1 style="text-shadow: 0 0 15px #0e3041;">
+            Meu Portal de Entretenimento Digital
+        </h1>
+
+        <p class="subtitulo">
+            Filmes, músicas, podcasts, games e tecnologia em um só lugar.
+        </p>
+    </header>
+
+    <!-- Container principal usando Flexbox -->
+    <main class="container">
+
+        <!-- Seção Filmes e Séries -->
+        <section class="card" id="filmes-series">
+            <h2 class="titulo-secao">🎬 Filmes e Séries</h2>
+
+            <img class="imagem" src=https://cinepop.com.br/wp-content/uploads/2021/07/rua-do-medo-2-2.jpg alt="Rua do Medo"><p>
+                A trilogia <strong>Rua do Medo</strong> é uma sequência de filmes de terror da Netflix
+                que mistura suspense, maldições e eventos sobrenaturais.
+            </p>
+
+<img class="imagem" src=https://upload.wikimedia.org/wikipedia/en/thumb/5/58/TheOffice_S7_DVD.jpg/250px-TheOffice_S7_DVD.jpg alt="The Office"><p>
+                <strong>The Office</strong> é uma série de comédia em formato de documentário
+                sobre o cotidiano de um escritório extremamente divertido.
+            </p>
+
+<img class="imagem" src=https://upload.wikimedia.org/wikipedia/pt/thumb/0/08/Modern_Family_temporada_10.jpg/250px-Modern_Family_temporada_10.jpg alt="Modern Family">
+            
+            
+
+
+            
+
+            <p>
+                <strong>Modern Family</strong> mostra diferentes estilos de família com muito humor
+                e situações emocionantes.
+            </p>
+        </section>
+
+        <!-- Seção Música e Podcasts -->
+        
+        <!-- Seção Música e Podcasts -->
+<section class="card" id="musica-podcast">
+    <h2 class="titulo-secao">🎵 Música e Podcasts</h2>
+
+    <!-- Capa do álbum Portals (onde está a música Hades) -->
+    
+    <img class="imagem"
+         src=https://upload.wikimedia.org/wikipedia/pt/2/2a/Hades_Melanie_Martinez_album_cover.jpg
+         alt="Álbum Hades - Melanie Martinez">
+
+    <p>
+        <strong>Hades</strong>, de Melanie Martinez, o álbum
+        <strong>Hades</strong>, é um trabalho com estética sombria e artística
+        que aborda temas de transformação, renascimento e autoconhecimento.
+    </p>
+
+    <!-- Capa ilustrativa de Ordem Paranormal -->
+    <img class="imagem"
+         src=https://pbs.twimg.com/media/FtEV1MRXgAARoZi.jpg
+         alt="Ordem Paranormal">
+
+    <p>
+        <strong>Ordem Paranormal</strong> é um podcast e RPG de investigação
+        sobrenatural disponível no Spotify, criado por Cellbit.
+        A história acompanha agentes que enfrentam criaturas e mistérios
+        ligados ao paranormal.
+    </p>
+</section>
+        <!-- Seção Games e Tecnologia -->
+        <section class="card" id="games-tecnologia">
+            <h2 class="titulo-secao">🎮 Games e Tecnologia</h2>
+
+            <img class="imagem" src="https://upload.wikimedia.org/wikipedia/en/f/fd/Logo_of_Stardew_Valley.png" alt="Stardew Valley">
+            <p> 
+              <strong>Stardew Valley:</strong> é um jogo relaxante de fazenda, onde o jogador planta,
+                pesca, minera e constrói relacionamentos com os moradores.
+            </p>
+        
+        <img class="imagem" src="https://ohdoylerules.com/images/html5css3badges.png" alt="HTML5">
+
+        <p>
+            <strong>Front-End</strong> é a área do desenvolvimento web responsável pela interface
+            visual de sites e aplicações, utilizando HTML, CSS e JavaScript e é minha favorita!.
+        </p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Desenvolvido por cauareiis © 2026</p>
+    </footer>
+
+</body>
+</html>
+```
